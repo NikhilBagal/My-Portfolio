@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width = device-width, initial-scale = 1.0">
+        <meta http-equiv="X-UA-Compatible" content = "ie=edge">
+        
+        <link href="portfolio.css" type="text/css" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+        
+        <title> Portfolio </title>
+    </head>
+    
+    <body>
+        
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+            <button class="navbar-toggler " data-toggle="collapse" data-target='#collapse_target'>
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="collapse_target">
+                <span class="navbar-text text-primary font-weight-bold text-center animated flash">Nikhil Bagal</span>
+                <div class="social-ic">
+                <a href="https://github.com/NikhilBagal" target="_blank" class="social-icon text-light"><i class="fa fa-github" aria-hidden="true"></i></a>
+                <a href="https://www.linkedin.com/in/nikhil-bagal-4b9463149/" target="_blank" class="social-icon text-light"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                <a href="https://twitter.com/nikbagal" class="social-icon text-light"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                <a href="https://codepen.io/nikhilbagal" target="_blank" class="social-icon text-light"><i class="fa fa-codepen" aria-hidden="true"></i></a>
+                </div>
+            <ul class="navbar-nav text-center ">
+                <li class="nav-item ">
+                    <a class="nav-link animated fadeIn" href="#about" >About</a>
+                </li>
+                <li class="nav-item animated fadeIn">
+                    <a class="nav-link" href="#portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item animated fadeIn">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+            </div>
+        </nav>
+        <div id="about">
+            <div class="image-port">
+            <img src="copy.jpg" id="port-image">
+                </div>
+            <div class="about-text-div">
+            <h2 class="text-center about-text animated fadeInDown">Hi,I'm Nikhil Bagal.</h2>
+            <h3 class="text-center about-text animated fadeInUp">A front-end web Developer.</h3>
+                </div>
+            <button class="text-center animated bounce" id="scrollDown"><i class="fa fa-chevron-down" aria-hidden="true"></i></button>
+            </div>
+        
+        <div id="portfolio">
+            <h3 class="text-center font-weight-bold">Here's My Work</h3>
+            <div class="portfolio-images row">
+                
+                <div class="row-md-6 container">
+                <img src="product.png" alt="product landing page" class="port-img" title="Product Landing Page">
+                   <div><h3 class="text center middle">Product Landing Page</h3></div>
+                    </div>
+                    
+            
+                
+             <!--   <div class="col-md-4">
+                <h3 class="text center">Product Landing Page</h3>
+                </div>
+                <span class="line"></span>-->
+                <div class="row-md-6 container">
+                <img src="survey.PNG" alt="survey page" class="port-img">
+                    <div><h3 class="text center">Survey Page</h3></div>
+                    </div>
+            <!--    <div class="col-md-4">
+                <h3 class="text center">Survey Page</h3>
+                </div>
+                <span class="line"></span>-->
+                 <div class="row-md-6 container">               
+                <img src="tribute.png" alt="tribute page" class="port-img">
+                     <div><h3 class="text center">Tribute Page</h3></div>
+                     </div>
+             <!--   <div class="col-md-4">
+                <h3 class="text center">Tribute Page</h3>
+                </div>
+                <span class="line"></span>-->
+                <div class="row-md-6 container"> 
+                <img src="tecdoc.PNG" alt="tecdoc page" class="port-img">
+                    <div><h3 class="text center">Technical Documentation Page</h3></div>
+                    </div>
+             <!--   <div class="col-md-4">
+                <h3 class="text center">Technical Documentation Page</h3>
+                </div>
+                <span class="line"></span>-->
+            </div>
+        </div>
+        <div id="contact">
+        <h3>Wanna work with me</h3>
+        <div class="form">
+            <input type="text" class="form-control" placeholder="Name">
+            <input type="email" class="form-control" placeholder="Email-id">
+            <input type="text" class="form-control" placeholder="Message" id="textArea">
+            <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+        </div>
+        <div class="bg-dark footer">
+        <span class="footer-heart">Made With <i class="fa fa-heart animated pulse" aria-hidden="true"></i> By Nikhil&copy;</span>
+        <p class="footer-text">nbagal02@gmail.com/9421036521</p>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="portfolio.js"></script>
+    </body>
+</html>
